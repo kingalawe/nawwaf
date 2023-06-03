@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url(back\ ground\ speas.jpg)no-repeat;
+    background-size: cover;
+    
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    border-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: ch;
+    display: flex;
+   
+}
+
+h2{
+    font-size: 2em;
+    color: darkviolet;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom:  2px solid #fff;
+
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+    top: -5px;
+}
+
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #fff;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+.forget{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    display: flex;
+    justify-content: center;
+}
+.forget label input{
+    margin-right: 3px;
+}
+
+.forget label a{
+    color: #fff;
+    text-decoration: none;
+}
+.forget label a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+.register{
+    font-size: .9em;
+    color: #fff;
+    margin: 25px 0 10px;
+    text-align: center;
+    justify-content: center;
+
+   
+}
+.register p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    left: 10px;
+    justify-content: center;
+}
+.register p a:hover{
+    text-decoration: underline;
+    justify-content: center;
+}
+img{
+    
+    width: 100px;
+    top: 20px;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    backdrop-filter: blur(8px);
+    border-color: blueviolet;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    border-bottom: 3px solid blueviolet;
+}
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 80px;
+
+}
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: blueviolet;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: .5s;
+}
+.navigation a:hover::after {
+    transform: scaleX(1);
+}
+.nawaf {
+    border-radius: 30px;
+    border: 1.1em;
+    border-color: #fff;
+}
+.text {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #fff;
+}
+p {
+  
+     text-align: end;
+     color: #b1afaf;
+}
+.center h1 {
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    background: -webkit-linear-gradient(0deg,rgba(164, 8, 255, 0.678), rgba(13, 57, 255, 0.993));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    backdrop-filter: blur(10px);
+    border: #fff;
+}
+
+/* added by editor for deomnstration purpose */
+body {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5b/St_Mary%27s_Church%2C_Castle_Street_1.jpg');
+  background-size: cover;
+}
+.center {
+  position: fixed;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -100%);
+    text-align: center;
+    width: max-content;
+}
