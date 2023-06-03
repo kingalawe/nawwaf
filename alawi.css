@@ -104,22 +104,16 @@ button{
 .register{
     font-size: .9em;
     color: #fff;
-    margin: 25px 0 10px;
     text-align: center;
-    justify-content: center;
-
-   
+    margin: 25px 0 10px;
 }
 .register p a{
     text-decoration: none;
     color: #fff;
     font-weight: 600;
-    left: 10px;
-    justify-content: center;
 }
 .register p a:hover{
     text-decoration: underline;
-    justify-content: center;
 }
 img{
     
@@ -127,7 +121,7 @@ img{
     top: 20px;
 }
 header{
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -180,7 +174,7 @@ header{
     color: #fff;
 }
 p {
-    position: relative;
+  
      text-align: end;
      color: #b1afaf;
 }
@@ -199,11 +193,11 @@ p {
 
 /* added by editor for deomnstration purpose */
 body {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/5b/St_Mary%27s_Church%2C_Castle_Street_1.jpg');
+ 
   background-size: cover;
 }
 .center {
-    position: relative;
+  position: fixed;
     left: 50%;
     top: 25%;
     transform: translate(-50%, -100%);
